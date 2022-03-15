@@ -1,10 +1,12 @@
 body {
+  background-image: url('https://raw.githubusercontent.com/KishanMishra1/Datasets-Here/main/_25_animated-space-wallpaper-gif_best-free-space-gifs-gfycat.gif');
+
     margin: 0;
     padding: 0;
-    background: rgb(240, 239, 239);
+  
     font-family: "Poppins", sans-serif;
   }
-  
+
   h1 {
     margin: 0;
     font-weight: 300;
@@ -81,3 +83,14 @@ body {
     border: 1px solid #000;
     padding: 0.4rem;
   }
+  .last-name:hover{
+    color: aquamarine;
+  
+  }
+  .first-name:hover{
+    color: aquamarine;
+  }
+
+.e{
+  text-decoration: none;
+}
