@@ -19,7 +19,7 @@ body {
   }
   
   .box {
-    background: #fff;
+    background: white;
     width: 50rem;
     padding: 3rem;
     margin: 1rem auto;
@@ -28,6 +28,7 @@ body {
   
   .header {
     display: grid;
+    position: relative;
     grid-template-columns: 40% 60%;
   }
   
@@ -39,6 +40,7 @@ body {
   }
   
   .first-name {
+    font-size: 40px;
     font-weight: 400;
     margin: 0;
   }
@@ -93,4 +95,90 @@ body {
 
 .e{
   text-decoration: none;
+}
+
+#k{
+  padding: 20px;
+
+}
+#kish{
+  text-align: center;
+  border-radius: 0;
+  opacity: 100;
+}
+#navg{
+  border: none;
+  border-collapse: collapse;
+  border-top: white;
+}
+.na {
+  display: inline;
+}
+.na a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.uln {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.na a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+.imgm{
+
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    width: 50%;
+    object-fit: fill;
+    
+  }
+  .imgm:hover {
+    transform: scaleX(-1);
+  }
+  .card,
+.cert-card {
+  margin-bottom: 0em;
+}
+
+.card-main,
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+}
+.mis{
+    margin-top:-20px;
+    padding-right:5px ;
+}
+.but{
+  background-color: grey; /* Green */
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.b1:hover{
+  background-color: #f44336;
+  color: white;
+  
 }
