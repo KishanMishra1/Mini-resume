@@ -19,16 +19,21 @@
 
 
     <title>Resume</title>
-    <link rel="icon" type="image/x-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" href="apple-touch-icon.png"/>
+  
+   
 </head>
 <body>
     <div class="box">
         <div class="header">
             <div class="header-left">
             <div class="Name">
-                <h1 class="first-name"><!--span style="color:blue">K</span-->KISHAN</h1>
+                <img class="imgm" width="125" height="110" src="WhatsApp Image 2022-03-18 at 1.23.34 AM.jpeg"/>
+               
 
-                <h1 class="last-name">MISHRA</h1>
+                <h1 class="first-name"><!--span style="color:blue">K</span-->KISHAN MISHRA</h1>
+
+                <!--h1 class="last-name">MISHRA</h1-->
                 
             </div>
             </div>
@@ -53,13 +58,31 @@
             </div>
         </div>
         <hr/>
-        <div class="objective">
+        <div id="k">
+            <nav>
+                <!--h1 style= "text-align: center;">Navigation Links</h1-->  
+        <div id="kish">
+        <ul class="uln">
+            <li class="na"><a class="active" href="#objective">Objective</a></li>&nbsp;&nbsp;
+            <li class="na"><a class="e" href="#education" target="_self">Education</a></li>&nbsp;&nbsp;
+            <li class="na"><a class="e" href="#wexp" target="_self">Work Experience</a></li>&nbsp;&nbsp;
+            <li class="na"><a class="e" href="#proj" target="_self">Project</a></li>
+            <li class="na"><a class="e" href="#skills" target="_self">Skills</a></button></li>&nbsp;&nbsp;
+            <li class="na"><a class="e" href="#activities" target="_self">Achievements</a></li>&nbsp;&nbsp;
+            
+          </ul>
+        </div>
+     </nav>  
+    </div>
+
+        <hr>
+        <div id="objective">
             <div class="obj-head grey">
                 <i class="fa-solid fa-bullseye"></i>
                 <h2>&nbsp;Objective</h2>
                 </div>
                 <p>An articulate and quick thinking young individual with a natural flair to communicate and build relationships. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
-                <div class="education">
+                <div id="education">
                     <div class="ed-heading grey">
                         <i class="fas fa-school icon"></i>
                         <h2>Education</h2>
@@ -92,52 +115,111 @@
                 </table>
                 
                 </div>
-                <div class="skills">
+                <div id="wexp">
+                    <div class="wexp grey">
+                        <i class="fa-solid fa-briefcase"></i>
+                      <h2>&nbsp; Work Experience</h2>
+                    </div>
+                      <div class="card">
+                        <div class="card-main">
+                          <h3>Mentorrbuddy.com</h3>
+                          <h4>November 2021 - February 2022</h4>
+                        </div>
+                        <p class="mis" ><em>Data Analyst</em></p>
+                        <ul>
+                          <li>Developed model to find different insights from a given datasets.</li>
+                          <li>Learnt different techniques to find and analyze patterns from big-data and visualize using matplotlib and seaborn libs.</li>
+                        </ul>
+                      
+                      </div>
+                      <div class="card">
+                        <div class="card-main">
+                          <h3 class="mis" >Grroom</h3>
+                          <h4>September 2021 - January 2022</h4>
+                        </div>
+                        <p class="mis"><em>Machine Learning Project Lead</em></p>
+                        <ul>
+                          <li>Extracting data of different shops present in a particular area , its sales period and customer buying behaviours.</li>
+                          <li>Managed a team of 20 interns ,guided them to create YOLO Models efficiently. </li>
+                        </ul><br>
+                        <p class="mis"><em>Machine Learning Intern</em></p>
+                        <ul>
+                          <li>Created 50+ YOLO Models for object as well as pattern detection.</li>
+                          <li> Learnt how to design UI by figmma and to add location into it.</li>
+                          <li>Redesigned and improved algorithms to auto-extract data from web.</li>
+                        </ul>
+                      </div>
+                      <div id="proj">
+                        <div class="wexp grey">
+                          <i class="fa-solid fa-code"></i>
+                          <h2>&nbsp; Projects</h2>
+                        </div>
+                          <div class="card">
+                            <div></div>
+                              <h3>Chatbot using NLP</h3>
+              
+                            </div>
+                            <ul>
+                              <li>A chatbot is an intelligent piece of software that is capable of
+                                communicating and performing actions similar to a human.</li>
+                              <li>The chatbot will be trained on the dataset which contains
+                                categories (intents), pattern and responses. It uses a special
+                                recurrent neural network (LSTM) to classify which category
+                                the users message belongs to and then we will give a random
+                                response from the list of responses.</li>
+                            </ul>
+                          
+                          </div>
+                          <div class="card">
+                              <h3 >Movie Recommender System using Collaborative Filtering</h3>
+                            <ul>
+                              <li>Recommender systems are algorithms aimed at suggesting
+                                relevant items to users i.e movies to watch, text to read, products
+                                to buy etc.
+                                </li>
+                              <li>Collaborative Filtering estimates past interactions recorded
+                                between users and items and make predictions based on these
+                                estimated proximities .</li>
+                            </ul>
+                          
+                  
+              </div>
+              
+          </div>
+                <div id="skills">
                     <div class="skills-heading grey">
                           <i class="fas fa-tools icon"></i>
                           <h2>Skills</h2>
                     </div>
           
-                  <ul>
-                    <li>System Designing</li>
-                    <li>Data Analysing</li>
-                    <li>Machine learning</li>
-                    <li>OpenCV</li>
-                    <li>MySQL</li>
-                  </ul>
+                  <p><button class="but b1 "> Data Analysing</li></button>
+                    <button class="but b1">Image Processing</button> 
+                    <button class="but b1">Machine learning</button>
+                    <button class="but b1" >SQL</button>
+                    <button class="but b1" >Natural Language Processing</button>
+                    <button class="but b1" >Competitive Coding using Python & C++</button>
+                  </p>
                 </div>
-                <div class="activities">
+                <div id="activities">
                   <div class="act-heading grey">
                     <i class="fab fa-creative-commons-nd icon"></i>
                     <h2>Achievements</h2>
                   </div>
                   <ul>
-                      <li>I will add it later.</li>
-                      <li>I will add it later.</li>
-                      <li>I will add it later.</li>
-                      <li>I will add it later.</li>
+                      
+                      <li>Awarded for the best project "Future Sales Prediction" from Mentorrbuddy.com.</li>
+                      <li>Promoted from database intern to Machine Learning Team Lead at Grroom.</li>
+                      <li>Awarded cash prize of Rs 2500 for being top performer in "Introduction to Python" internship.</li>
+                      <li>Got Second prize in National Level Jawaharlal Nehru Science Exhibition 2019, Dehradun.</li>
                   </ul>
 
             
         </div>
-        <div class="proj">
-            <div class="proj-heading grey">
-                <i class="fa-solid fa-code"></i>
-              <h2>Projects</h2>
-            </div>
-            <ul>
-                <li>I will add it later.</li>
-                <li>I will add it later.</li>
-                <li>I will add it later.</li>
-                <li>I will add it later.</li>
-            </ul>
+        
 
-      
-  </div>
 
-    </div>
+    
 <!--div can also distinguished by ids. Difference between class and id is 
 id is unique whereas class can have same names-->
-<!--'.' is used to create class whereas '#' used to create ids-->
 </body>
 </html>
